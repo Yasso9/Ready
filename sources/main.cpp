@@ -1,10 +1,15 @@
+#include <iostream>
+
 #include <QtWidgets/QApplication>
 
-#include <iostream>
+#include "notepad.hpp"
 
 int main( int argc, char ** argv )
 {
-    QApplication app( argc, argv );
+    QApplication application { argc, argv };
 
-    return app.exec();
+    Notepad w {};
+    w.show();
+
+    return application.exec();
 }

@@ -3,7 +3,7 @@
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
-        "external/": true
+        // "external/": true
     },
     "files.associations": {
         "*.txt": "plaintext",
@@ -101,6 +101,10 @@
         "stop_token": "cpp",
         "codecvt": "cpp",
         "qt3dquickanimation": "cpp",
-        "qapplication": "cpp"
+        "qapplication": "cpp",
+        "qmainwindow": "cpp",
+        "qiodevice": "cpp",
+        "qtextstream": "cpp",
+        "qstring": "cpp"
     }
 }
